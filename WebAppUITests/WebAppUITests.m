@@ -13,7 +13,26 @@
 @end
 
 @implementation WebAppUITests
-
+//本地touch创建文件夹
+- (void)touchFile{
+    NSLog(@"本地touch创建文件");
+}
+//使用git status查看提交状态
+- (void)status{
+    
+}
+//使用git add xxx 添加版本
+- (void)addVersion{
+    
+}
+//使用git commit -m "日志"  提交版本
+- (void)commitVerson{
+    
+}
+//使用git diff xxxxx修改的内容
+- (void)difference{
+    
+}
 - (void)setUp {
     [super setUp];
     
