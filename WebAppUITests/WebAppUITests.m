@@ -13,6 +13,10 @@
 @end
 
 @implementation WebAppUITests
+//第一次从gitHub上checkout的项目需要在相应的路径下git init
+- (void)init {
+    
+}
 //本地touch创建文件夹
 - (void)touchFile{
     NSLog(@"本地touch创建文件");
